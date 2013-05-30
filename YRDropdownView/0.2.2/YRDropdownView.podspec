@@ -8,6 +8,5 @@ Pod::Spec.new do |s|
   s.author   = { 'Eli Perkins' => 'eli@onemightyroar.com' }
   s.source   = { :git => 'https://github.com/iCloud/YRDropdownView.git', :tag => 'v0.2.2' }
   s.source_files = 'YRDropdownView/*.{h,m}'
-  s.resources    = 'YRDropdownView/*.png'
   s.requires_arc = true
 end
