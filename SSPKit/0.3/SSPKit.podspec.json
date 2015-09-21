@@ -1,0 +1,23 @@
+{
+    "name": "SSPKit",
+    "version": "0.3",
+    "license": "MIT",
+    "summary": "SSPKit",
+    "homepage": "https://github.com/VasilievMB/SSPKit",
+    "authors": "SSP",
+    "source": {
+        "git": "https://github.com/VasilievMB/SSPKit.git",
+        "tag": "0.3"
+    },
+    "platforms": {
+        "ios": "6.0"
+    },
+    "requires_arc": true,
+    "default_subspecs": "Core",
+    "subspecs": [
+                     {
+                         "name": "Core",
+                         "source_files": "SSPKit/SSPKit/Classes/**/*.{h,m}"
+                     },
+                 ]
+}
