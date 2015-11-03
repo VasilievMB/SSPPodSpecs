@@ -15,9 +15,15 @@
     "requires_arc": true,
     "default_subspecs": "Core",
     "subspecs": [
-                     {
-                         "name": "Core",
-                         "source_files": "SSPKit/SSPKit/Classes/**/*.{h,m,c}"
+                 {
+                     "name": "Core",
+                     "source_files": "SSPKit/SSPKit/Classes/**/*.{h,m,c}",
+                     "ios": {
+                         "frameworks": [
+                                        "CoreGraphics",
+                                        "QuartzCore"
+                                        ]
+                         }
                      }
                  ]
 }
