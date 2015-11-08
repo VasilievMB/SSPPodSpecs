@@ -33,7 +33,10 @@
                  },
                  {
                      "name": "Pagination",
-                     "source_files" : "SSPKit/SSPKit/Classes/Pagination/**/*.{h,m,c}"
+                     "source_files" : "SSPKit/SSPKit/Classes/Pagination/**/*.{h,m,c}",
+                     "dependencies": {
+                         "SSPKit/Core": []
+                     }
                  }
                  ]
 }
