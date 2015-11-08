@@ -1,0 +1,39 @@
+{
+    "name": "SSPKit",
+    "version": "0.4",
+    "license": "MIT",
+    "summary": "SSPKit",
+    "homepage": "https://github.com/VasilievMB/SSPKit",
+    "authors": "SSP",
+    "source": {
+        "git": "https://github.com/VasilievMB/SSPKit.git",
+        "tag": "0.4"
+    },
+    "platforms": {
+        "ios": "6.0"
+    },
+    "requires_arc": true,
+    "default_subspecs": "Core",
+    "subspecs": [
+                 {
+                     "name": "Core",
+                     "source_files" : "SSPKit/SSPKit/Classes/Core/**/*.{h,m,c}",
+                     "frameworks": [
+                                    "CoreGraphics",
+                                    "QuartzCore"
+                                    ]
+                 },
+                 {
+                     "name": "ImagePicker",
+                     "source_files" : "SSPKit/SSPKit/Classes/ImagePicker/**/*.{h,m,c}",
+                     "frameworks": "AVFoundation",
+                     "platforms": {
+                         "ios": "7.0"
+                     }
+                 },
+                 {
+                     "name": "Pagination",
+                     "source_files" : "SSPKit/SSPKit/Classes/Pagination/**/*.{h,m,c}",
+                 }
+                 ]
+}
